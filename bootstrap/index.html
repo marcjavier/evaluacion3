@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width initial-scale=1'>
+    <meta name='mobile-web-app-capable' content='yes'>
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' href='css/estilos.css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='js/bootstrap.min.js'></script>
+    <title>Blog de Musica</title>
+  </head>
+
+  <body class="music-body" >
+    <header class="cabezera">
+
+      <div class="row titulo">
+        <div class="col-lg-5">
+            <img class='logo-img' src='img/logo.png' style="width: 30%; margin-top: 2px;"/>
+            <label> <h1>Blog de Musica</h1> </label>
+        </div>
+
+        <div class="col-lg-4 offset-lg-3 align-self-end">
+            <div class='redes-sociales'>
+              <img class="icono-social" src='img/facebook.png'/>
+              <img class="icono-social" src='img/twitter.png'/>
+              <img class="icono-social" src='img/google-plus.png'/>
+              <img class="icono-social" src='img/youtube.png'/>
+              <img class="icono-social" src='img/instagram.png'/>
+            </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <nav class="navbar navbar-light justify-content-between" style="background-color: #e3f2fd;">
+
+              <button class="btn btn-outline-success" type="button">Inicio</button>
+              <button class="btn btn-outline-success" type="button">Artistas</button>
+              <button class="btn btn-outline-success" type="button">Grupo</button>
+              <button class="btn btn-outline-success" type="button">Top 10</button>
+              <button class="btn btn-outline-success" type="button">Letras</button>
+              <button class="btn btn-outline-success" type="button">Acordes</button>
+
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="row artista">
+            <!-- Para el primer artista-->
+            <div class="col-lg-8">
+              <h2>TINI: EL GRAN CAMBIO DE VIOLETTA</h2>
+              <p>TINI – EL GRAN CAMBIO DE VIOLETTA deleitará a los fans con todo lo que adoran acerca del fenómeno mundial de Violetta, incluyendo fuertes elementos musicales con nuevas canciones originales, emocionantes coreografías, historias atractivas y personajes intrigantes. Será todo más intenso y adaptado para la pantalla grande. </p>
+              <p>
+              TINI_DAY23_LD_8537El film muestra el momento crucial que significó para Tini el hecho de tomar el papel para la serie de televisión, que luego la conduciría a esta historia personal sobre su transición a la madurez. </p>
+              <p>En una historia que refleja la vida real de la estrella adolescente, Tini deja atrás el mundo que había representado en Violetta y se embarca por su cuenta en una nueva aventura durante un verano eterno, que la definirá como persona y la llevará a emerger como una nueva artista.</p>
+            </div>
+
+            <div class="col-lg-4">
+              <img src="img/tini.jpg" alt="Tini" style="width: 100%;">
+            </div>
+            <div class="w-100"></div>
+            <div class="col-lg-1">
+              <img src="img/comentario.png" alt="comentario" style="width: 50px;margin-top: 8px;">
+            </div>
+            <div class="col-lg-11">
+              <textarea name="name" rows="2" cols="112" placeholder="Comentario" class="form-control"></textarea>
+            </div>
+          </div>
+
+
+          <!-- Para el segundo artista-->
+          <div class="row artista">
+
+
+            <div class="col-lg-4">
+              <img src="img/demi.jpg" alt="Demi Lovato" style="width: 100%;">
+            </div>
+
+            <div class="col-lg-8">
+              <h2>DEMI LOVATO</h2>
+
+              <p>Demetria Devonne «Demi» Lovato3​ (Albuquerque, 20 de agosto de 1992)1​ es una actriz, cantante y compositora estadounidense y es la fundadora junto con Nick Jonas del sello discográfico, Safehouse Records. En 2008, interpretó a Mitchie Torres en la película original de Disney Channel Camp Rock y firmó un contrato discográfico con Hollywood Records. En septiembre de ese mismo año, publicó su primer álbum de estudio, Don't Forget. Este alcanzó la posición 2 en la lista estadounidense Billboard 200 y recibió un disco de oro por parte de la RIAA por vender 530 000 copias en el país. En 2009, Lovato protagonizó la serie de Disney Channel Sunny, entre estrellas. En julio, publicó su segundo álbum de estudio, Here We Go Again. El disco llegó al número uno del ranking estadounidense Billboard 200 y también recibió un disco de oro por parte de la RIAA. El primer sencillo de este, «Here We Go Again» alcanzó la posición 15 en el Billboard Hot 100.</p>
+            </div>
+
+            <div class="w-100"></div>
+            <div class="col-lg-1">
+              <img src="img/comentario.png" alt="comentario" style="width: 50px;margin-top: 8px;">
+            </div>
+            <div class="col-lg-11">
+              <textarea name="name" rows="2" cols="112" placeholder="Comentario" class="form-control" style="width: 100%;"></textarea>
+            </div>
+
+        </div>
+
+
+
+
+        </div>
+        <div class="col-lg-4" style="border-left: 1px solid black;">
+          <div class="col-auto">
+            <label class="sr-only" for="inlineFormInputGroup">Username</label>
+            <div class="input-group mb-2 mb-sm-0">
+              <div class="input-group-addon"><i class="material-icons">search</i></div>
+              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Buscar">
+            </div>
+          <h2>Buscar</h2>
+
+          <ul class="list-group">
+            <li class="list-group-item">Rock</li>
+            <li class="list-group-item">Pop</li>
+            <li class="list-group-item">Musica Electronica</li>
+            <li class="list-group-item">Rap</li>
+            <li class="list-group-item">Rock Alternativo</li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

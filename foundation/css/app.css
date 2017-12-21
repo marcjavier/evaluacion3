@@ -1,0 +1,60 @@
+@import 'foundation';
+
+@include foundation-grid;
+@include foundation-flex-classes;
+@include foundation-flex-grid;
+
+@media (min-width: 900px) {
+body{
+  width: 80%;
+  margin-left: 10%;
+  background: url(../img/fondo.jpg);
+}
+}
+
+div{
+
+}
+#innovahome{
+  font-size: 24pt;
+}
+
+.logo-img{
+  width: 30%;
+}
+
+.favoritos-img{
+  width: 30%;
+  margin-left: 2%;
+}
+
+.img-contenido{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.pagina{
+  background-color: rgba(197, 45, 156, 0.9);
+  margin: 2%;
+}
+
+
+.titulo{
+  border-bottom: 1px dotted #fce4ec;
+  margin-bottom: 3%;
+}
+
+.barra-menu{
+  padding: 2%;
+  background-color: #f3e5f5;
+}
+
+.busquedas{
+  background-color: #f3e5f5;
+}
+
+.contenido{
+  background-color: #f3e5f5;
+  padding: 1%;
+  margin-bottom: 1%;
+}

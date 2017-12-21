@@ -1,0 +1,31 @@
+
+
+.imagen{
+  width:40%;
+  margin: 1%;
+}
+
+.autor{
+  margin-top: 5%;
+  width: 50%;
+  margin-left: 25%
+}
+
+.foto-autor{
+  border-bottom: 1px solid grey;
+  padding: 2%;
+}
+
+@media (min-width: 900px) {
+body{
+  width: 80%;
+  margin-left: 10%;
+  background: url(../img/fondo.jpeg);
+  background-attachment: fixed;
+}
+}
+
+body{
+  background: url(../img/fondo.jpeg);
+  background-attachment: fixed;
+}

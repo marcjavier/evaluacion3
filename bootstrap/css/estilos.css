@@ -1,0 +1,48 @@
+.music-body {
+  background: url(../img/background.jpg);
+}
+
+
+
+button{
+  width: 150px;
+}
+@media (min-width: 900px) {
+body{
+  width: 80%;
+  margin-left: 10%;
+}
+}
+
+.redes-sociales{
+  text-align: right;
+}
+
+.cabezera{
+  background-color: #80d8ff;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.icono-social{
+  width: 15%;
+}
+
+section{
+  background-color: #e0f2f1;
+  padding: 2%;
+}
+
+.titulo{
+  padding: 2%;
+}
+
+.artista{
+  margin: 10px;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+p{
+  text-align: justify;
+}
